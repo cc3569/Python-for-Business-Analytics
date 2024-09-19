@@ -28,7 +28,7 @@ def print_inventory():
     print(f"Quantity: {j['Quantity']}")
     print(f"Price: ${j['Price']}\n")
 
-#Prints current book inventory
+# Prints current book inventory
 print("========================================================================================================================")
 print("CURRENT BOOK INVENTORY\n")
 print_inventory()
@@ -41,7 +41,7 @@ for x in range(5):
     if i['Quantity'] < 0:
       i['Quantity'] = 0
 
-#Prints updated book inventory after sale
+# Prints updated book inventory after sale
 print("========================================================================================================================")
 print("UPDATED BOOK INVENTORY - RECENT TRANSACTION: SALE\n")
 print_inventory()
