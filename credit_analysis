@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Import dataframe
-df = pd.read_csv('credit.csv')
+df = pd.read_csv('/content/credit.csv')
 
 # Print descriptive statistics
 print(df.describe().round(4))
